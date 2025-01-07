@@ -8,13 +8,13 @@ st.title("E-Commerce Dashboard")
 
 @st.cache_data
 def load_data():
-    order_items_df = pd.read_csv("E:/Data Kerja Fito/Dicoding/Proyek Analisis Data/data/order_items_dataset.csv")
-    orders_df = pd.read_csv("E:/Data Kerja Fito/Dicoding/Proyek Analisis Data/data/orders_dataset.csv")
-    customer_df = pd.read_csv("E:/Data Kerja Fito/Dicoding/Proyek Analisis Data/data/customers_dataset.csv")
-    order_payments_df = pd.read_csv("E:/Data Kerja Fito/Dicoding/Proyek Analisis Data/data/order_payments_dataset.csv")
-    order_reviews_df = pd.read_csv("E:/Data Kerja Fito/Dicoding/Proyek Analisis Data/data/order_reviews_dataset.csv")
-    products_df = pd.read_csv("E:/Data Kerja Fito/Dicoding/Proyek Analisis Data/data/products_dataset.csv")
-    category_translation_df = pd.read_csv("E:/Data Kerja Fito/Dicoding/Proyek Analisis Data/data/product_category_name_translation.csv")
+    order_items_df = pd.read_csv("data/order_items_dataset.csv")
+    orders_df = pd.read_csv("data/orders_dataset.csv")
+    customer_df = pd.read_csv("data/customers_dataset.csv")
+    order_payments_df = pd.read_csv("data/order_payments_dataset.csv")
+    order_reviews_df = pd.read_csv("data/order_reviews_dataset.csv")
+    products_df = pd.read_csv("data/products_dataset.csv")
+    category_translation_df = pd.read_csv("data/product_category_name_translation.csv")
     return order_items_df, orders_df, customer_df, order_reviews_df, order_payments_df, products_df, category_translation_df
 
 def create_sidebar_filters(orders_df):
