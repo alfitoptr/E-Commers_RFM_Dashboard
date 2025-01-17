@@ -93,7 +93,7 @@ Contributions are welcome! If you have suggestions or improvements, feel free to
 If you have any questions or feedback, please feel free to contact:
 - **Name**: Alfito Putra Fajar Pratama
 - **Email**: alfito.pfp@gmail.com
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/alfitoptr)
+- **LinkedIn**: [alfitoptr](https://linkedin.com/in/alfitoptr)
 
 ---
 Thank you for using the E-Commerce Dashboard! We hope it adds value to your e-commerce business analysis.
