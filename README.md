@@ -80,6 +80,10 @@ Ensure these datasets are placed in the `data/` directory of the project.
 2. Select the metrics you want to explore using the sidebar filters.
 3. Interact with the visualizations to gain insights.
 
+## Live Dashboard
+You can view the live version of the dashboard at the following link:
+[Live Dashboard](https://e-commers-rfm-dashboard.streamlit.app/)
+
 ## License
 This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for more details.
 
